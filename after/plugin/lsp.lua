@@ -6,7 +6,6 @@ lsp.setup_servers({
 	'eslint',
 	'rust_analyzer',
 	'ccls',
-  'clangd',
 	'java_language_server',
 	'lua_ls'
 })
