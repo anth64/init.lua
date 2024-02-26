@@ -3,7 +3,6 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 lsp.setup_servers({
 	'tsserver',
-	'eslint',
 	'rust_analyzer',
   'clangd',
 	'lua_ls'
