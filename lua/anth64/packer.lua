@@ -39,4 +39,9 @@ return require('packer').startup(function(use)
       vim.cmd('colorscheme tokyonight')
     end
   })
+  -- Status bar
+  use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 end)
