@@ -2,10 +2,11 @@ local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
 lsp.setup_servers({
-	'tsserver',
 	'rust_analyzer',
   'clangd',
-	'lua_ls'
+	'lua_ls',
+  'tsserver',
+  'svelte'
 })
 
 local cmp = require('cmp')
