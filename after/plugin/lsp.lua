@@ -4,6 +4,7 @@ lsp.preset('recommended')
 lsp.setup_servers({
 	'rust_analyzer',
   'clangd',
+  'csharp_ls',
 	'lua_ls',
   'tsserver',
   'svelte'
