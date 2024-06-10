@@ -2,6 +2,7 @@ local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
 lsp.setup_servers({
+  'jsonls',
 	'rust_analyzer',
   'clangd',
   'csharp_ls',
