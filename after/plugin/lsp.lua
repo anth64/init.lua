@@ -2,13 +2,15 @@ local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
 lsp.setup_servers({
+	'bashls',
   'jsonls',
 	'rust_analyzer',
   'clangd',
   'csharp_ls',
 	'lua_ls',
   'tsserver',
-  'svelte'
+  'svelte',
+	'yamlls'
 })
 
 local cmp = require('cmp')
