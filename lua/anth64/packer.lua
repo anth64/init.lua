@@ -34,11 +34,12 @@ return require('packer').startup(function(use)
   -- Color schemes.
   use({
     'folke/tokyonight.nvim',
-    as =  'tokyonight',
-    config = function()
-      vim.cmd('colorscheme tokyonight')
-    end
+    as = 'tokyonight',
   })
+	use({
+		"oxfist/night-owl.nvim",
+		as = 'night-owl',
+	})
   -- Status bar
   use {
   'nvim-lualine/lualine.nvim',

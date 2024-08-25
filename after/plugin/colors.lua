@@ -6,6 +6,10 @@ require('tokyonight').setup({
   }
 })
 
+require('night-owl').setup({
+	transparent_background = true
+})
+
 function ColorMyPencils(color)
   color = color or 'tokyonight'
 	vim.cmd.colorscheme(color)
@@ -13,4 +17,4 @@ function ColorMyPencils(color)
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
-ColorMyPencils()
+ColorMyPencils('night-owl')
