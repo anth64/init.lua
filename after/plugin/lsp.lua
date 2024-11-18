@@ -4,12 +4,14 @@ lsp.preset('recommended')
 lsp.setup_servers({
 	'bashls',
   'jsonls',
-	'rust_analyzer',
-  'clangd',
+	'ccls',
   'csharp_ls',
+	'gopls',
+	'html',
+	'htmx',
 	'lua_ls',
-  'tsserver',
-  'svelte',
+	'ruby_lsp',
+	'rust_analyzer',
 	'yamlls'
 })
 
