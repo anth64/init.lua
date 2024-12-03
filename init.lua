@@ -1,1 +1,3 @@
-require("anth64")
+require("config.set")
+require("config.remap")
+require("config.lazy")
