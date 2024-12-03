@@ -1,3 +1,4 @@
+vim.opt.cmdheight = 0
 vim.opt.guicursor = ""
 vim.opt.mouse = ""
 
