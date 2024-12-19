@@ -1,3 +1,11 @@
+vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
+  group = vim.api.nvim_create_augroup("float_diagnostic_cursor", { clear = true }),
+  callback = function ()
+    vim.diagnostic.open_float(nil, {focus=false, scope="cursor"})
+  end
+})
+
+vim.opt.shell="zsh"
 vim.opt.fileformat="unix"
 vim.opt.fileformats="unix"
 vim.opt.cmdheight = 0
@@ -35,3 +43,4 @@ vim.opt.colorcolumn = "80"
 
 vim.g.c_syntax_for_h = 1
 vim.g.mapleader = " "
+
