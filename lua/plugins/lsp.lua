@@ -7,8 +7,16 @@ return {
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup {}
       lspconfig.ccls.setup {}
-      lspconfig.basedpyright.setup {}
-
+      lspconfig.basedpyright.setup {
+        settings = {
+          basedpyright = {
+            analysis = {
+              typeCheckingMode = "basic",
+              inlayHints = { callArgumentNames = true }
+            }
+          }
+        }
+      }
     end,
   },
   {
