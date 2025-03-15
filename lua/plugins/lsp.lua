@@ -17,6 +17,7 @@ return {
           }
         }
       }
+      lspconfig.yamlls.setup {}
     end,
   },
   {
