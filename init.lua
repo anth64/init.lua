@@ -2,7 +2,7 @@ require("config.set")
 require("config.remap")
 require("config.lazy")
 
-vim.lsp.enable( { "luals" })
+vim.lsp.enable({ "luals" })
 
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
