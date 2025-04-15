@@ -2,8 +2,6 @@ require("config.lazy")
 require("config.set")
 require("config.remap")
 
-vim.lsp.enable({ "luals" })
-
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
     local client = vim.lsp.get_client_by_id(ev.data.client_id)
@@ -12,6 +10,8 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end
   end,
 })
+
+vim.lsp.enable({'basedpyright', 'lua_ls', 'yamlls'})
 
 vim.cmd("set completeopt+=noselect")
 vim.o.winborder='rounded'
