@@ -32,3 +32,5 @@ vim.g.c_syntax_for_h = 1
 
 vim.cmd.colorscheme("moonfly")
 
+vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { noremap = true, silent = true })
+
