@@ -7,7 +7,13 @@ return {
 			require("lualine").setup()
 		end,
 	},
-	{ "bluz71/vim-moonfly-colors", lazy = false },
+	{
+		"bluz71/vim-moonfly-colors",
+		lazy = false,
+		config = function()
+			vim.g.moonflyTransparent = true
+		end,
+	},
 	{ "EdenEast/nightfox.nvim", lazy = false },
 	{ "oxfist/night-owl.nvim", lazy = false },
 }
