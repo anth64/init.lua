@@ -1,3 +1,7 @@
+vim.bo.expandtab = true
+vim.bo.shiftwidth = 4
+vim.bo.tabstop = 4
+
 local home = os.getenv("HOME") or os.getenv("USERPROFILE")
 local config = {
 	cmd = { home .. '/.local/share/java/jdtls/bin/jdtls'},
