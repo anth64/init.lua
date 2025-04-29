@@ -11,7 +11,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end,
 })
 
-vim.lsp.enable({'basedpyright', 'lua_ls', 'yamlls'})
+vim.lsp.enable({'basedpyright', 'lua_ls', 'yamlls', 'gopls', 'htmx' })
 
 vim.cmd("set completeopt+=noselect")
 vim.o.winborder='rounded'
