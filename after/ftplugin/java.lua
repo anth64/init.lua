@@ -1,6 +1,6 @@
-vim.bo.expandtab = true
-vim.bo.shiftwidth = 4
-vim.bo.tabstop = 4
+vim.opt_local.expandtab = true
+vim.opt_local.shiftwidth = 4
+vim.opt_local.tabstop = 4
 
 local home = os.getenv("HOME") or os.getenv("USERPROFILE")
 local config = {
