@@ -1,4 +1,3 @@
-vim.opt.shell = "zsh"
 vim.opt.fileformat = "unix"
 vim.opt.fileformats = "unix"
 vim.opt.guicursor = ""
