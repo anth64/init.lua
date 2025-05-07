@@ -1,7 +1,6 @@
 vim.opt.shell = "zsh"
 vim.opt.fileformat = "unix"
 vim.opt.fileformats = "unix"
-vim.opt.cmdheight = 0
 vim.opt.guicursor = ""
 vim.opt.mouse = ""
 
