@@ -9,7 +9,7 @@ vim.lsp.enable({
   'eslint',
   'gopls',
   'html',
-  'htmx',
+  -- 'htmx',
   'jsonls',
   'lua_ls',
   'yamlls',
