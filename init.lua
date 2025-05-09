@@ -12,6 +12,7 @@ vim.lsp.enable({
   -- 'htmx',
   'jsonls',
   'lua_ls',
+  'ts_ls',
   'yamlls',
 })
 vim.o.winborder = 'rounded'
