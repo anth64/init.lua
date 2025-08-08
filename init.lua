@@ -6,6 +6,7 @@ vim.cmd("set completeopt+=noselect")
 
 vim.lsp.enable({
   'basedpyright',
+  'ccls',
   'cssls',
   'eslint',
   'gopls',
