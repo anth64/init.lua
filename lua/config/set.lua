@@ -1,5 +1,6 @@
 vim.opt.fileformat = "unix"
 vim.opt.fileformats = "unix"
+vim.opt.fixendofline = true
 vim.opt.guicursor = ""
 vim.opt.mouse = ""
 
