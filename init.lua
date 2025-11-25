@@ -6,16 +6,16 @@ vim.cmd("set completeopt+=noselect")
 
 vim.lsp.enable({
   'basedpyright',
-  -- 'ccls',
   'clangd',
+  'csharp_ls',
   'cssls',
   'eslint',
   'gopls',
   'html',
-  -- 'htmx',
   'jsonls',
   'lua_ls',
   'ts_ls',
   'yamlls',
 })
+
 vim.o.winborder = 'rounded'
